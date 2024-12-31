@@ -104,6 +104,7 @@ function handleSubmit(event) {
               $('#submitButton').text('Create My Account'); // Change the button text back to "Create My Account"
               closePopup();
               $('#signupForm')[0].reset();
+                window.location.href = '/coming-soon.html';
           },
           error: function (error) {
               alert('There was an error submitting the form. Please try again.');

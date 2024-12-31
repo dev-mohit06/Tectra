@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Tectra</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        :root {
+            --first-color: #2563EB;
+            --first-color-lighten: #EFF6FF;
+            --title-color: #1B1B1B;
+            --text-color: #747474;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes checkmark {
+            0% { transform: scale(0); opacity: 0; }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(-45deg, #2563EB, #3b82f6, #60a5fa, #93c5fd);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            padding: 2rem;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px;
+            padding: 3rem;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .logo span {
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 2px;
+        }
+
+        .checkmark {
+            width: 80px;
+            height: 80px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 2rem auto;
+            animation: checkmark 0.5s ease-out forwards;
+        }
+
+        .checkmark i {
+            font-size: 40px;
+            color: var(--first-color);
+        }
+
+        h1 {
+            color: white;
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .message {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.25rem;
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            background: white;
+            color: var(--first-color);
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .social-link {
+            color: white;
+            font-size: 1.8rem;
+            transition: all 0.3s;
+            opacity: 0.8;
+        }
+
+        .social-link:hover {
+            opacity: 1;
+            transform: translateY(-3px) scale(1.1);
+        }
+
+        .shapes {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .shape {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+            border-radius: 50%;
+        }
+
+        .shape-1 {
+            width: 200px;
+            height: 200px;
+            top: -50px;
+            left: -50px;
+        }
+
+        .shape-2 {
+            width: 150px;
+            height: 150px;
+            bottom: -25px;
+            right: -25px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .container {
+                padding: 2rem;
+            }
+
+            .message {
+                font-size: 1.1rem;
+            }
+
+            .social-links {
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        <div class="checkmark">
+            <i class='bx bx-check'></i>
+        </div>
+
+        <h1>Thank You for Joining Us!</h1>
+        <p class="message">We're thrilled to have you on board. Our team is working hard to bring you the most powerful project management platform. We'll notify you as soon as everything is ready!</p>
+        
+        <a href="/" class="button">Back to Homepage</a>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/tectra_in/" class="social-link" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="mailto:tectra08.in@gmail.com" class="social-link">
+                <i class='bx bxl-gmail'></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
