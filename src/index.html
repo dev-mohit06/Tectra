@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =============== META TAGS =============== -->
+    <meta name="description"
+        content="Tectra - A powerful project management platform developed by Mohit Paddhariya. Streamline your workflow with budget tracking, team coordination, and resource management tools. Built by expert developer Mohit Paddhariya.">
+    <meta name="keywords"
+        content="Mohit Paddhariya, Tectra, project management, construction management, Mohit, budget tracking, inventory management, task management, developer Mohit Paddhariya">
+    <meta name="author" content="Mohit Paddhariya">
+
+    <meta property="og:title" content="Tectra - Project Management Platform by Mohit Paddhariya">
+    <meta property="og:description"
+        content="Powerful project management platform developed by Mohit Paddhariya. Streamline your workflow with complete project management solutions.">
+    <meta property="og:image" content="./assets/imgs/logo.svg">
+    <meta property="og:url" content="https://your-website-url.com">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tectra - Project Management Platform by Mohit Paddhariya">
+    <meta name="twitter:description"
+        content="Powerful project management platform developed by Mohit Paddhariya. Streamline your workflow with complete project management solutions.">
+    <meta name="twitter:image" content="./assets/imgs/logo.svg">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/imgs/logo.svg" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container grid">
+            <a href="#" class="nav__logo">
+                <img src="./assets/imgs/logo.svg" style="height: 40px; width: 40px;" id="logo" alt="">
+                <span style="font-family: 'Open Sans', serif; font-weight: bolder; margin-left: 10px;">Tectra</span>
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#howitwork" class="nav__link">
+                            <i class='bx bx-info-circle'></i>
+                            <span>How it's work</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#features" class="nav__link">
+                            <i class='bx bx-package'></i>
+                            <span>Features</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-cuboid'></i>
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a onclick="openPopup()" class="button nav__button">
+                Sign Up
+            </a>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Build Dreams,<br>Track Reality.
+                    </h1>
+                    <p class="home__description">
+                        Powerful project management platform that simplifies your workflow. From budgets to team
+                        coordination, manage everything in one place.
+                        <br>
+                        <br>
+                        <strong style="color: var(--second-color);">And the best part? It's completely free!</strong>
+                    </p>
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                30 <span>%</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Faster <br> Work
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                25 <span>%</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Time <br> Saved
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                40 <span>%</span>
+                            </h1>
+                            <span class="home__value-description">
+                                More <br> Satisfaction
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="./assets/imgs/home.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== How it's work ====================-->
+        <br>
+        <section class="section" id="howitwork">
+            <div class="container">
+                <!-- Section Title -->
+                <div class="section__data" style="text-align: center; margin-bottom: 4rem;">
+                    <span class="section__subtitle">How it Works</span>
+                    <h2 class="section__title">
+                        Easy Steps to <span>Get Started</span>
+                    </h2>
+                    <p class="contact__description" style="max-width: 600px; margin: 1.5rem auto 0;">
+                        Get up and running with Tectra in just a few simple steps. Our streamlined process ensures you
+                        can start managing your projects efficiently.
+                    </p>
+                </div>
+
+                <!-- Steps Container -->
+                <div style="max-width: 1200px; margin: 0 auto;">
+                    <!-- Step 1 -->
+                    <div style="display: flex; align-items: center; margin-bottom: 3rem; gap: 2rem; flex-wrap: wrap;">
+                        <div
+                            style="flex: 1; min-width: 280px; background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);">
+                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                                <div
+                                    style="background-color: var(--first-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                    1
+                                </div>
+                                <h3 style="font-size: var(--h3-font-size); margin: 0;">Sign Up</h3>
+                            </div>
+                            <p style="margin: 0; color: var(--text-color);">
+                                Create your account in minutes. Fill in your basic information and choose your role to
+                                get started.
+                            </p>
+                        </div>
+                        <div style="flex: 1; min-width: 280px; display: flex; justify-content: center;">
+                            <div
+                                style="background-color: var(--first-color-lighten); padding: 2rem; border-radius: 1rem; width: 120px; height: 120px; display: flex; align-items: center; justify-content: center;">
+                                <i class='bx bx-user-plus' style="font-size: 3rem; color: var(--first-color);"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div
+                        style="display: flex; align-items: center; margin-bottom: 3rem; gap: 2rem; flex-wrap: wrap-reverse;">
+                        <div style="flex: 1; min-width: 280px; display: flex; justify-content: center;">
+                            <div
+                                style="background-color: var(--first-color-lighten); padding: 2rem; border-radius: 1rem; width: 120px; height: 120px; display: flex; align-items: center; justify-content: center;">
+                                <i class='bx bx-folder-plus' style="font-size: 3rem; color: var(--first-color);"></i>
+                            </div>
+                        </div>
+                        <div
+                            style="flex: 1; min-width: 280px; background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);">
+                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                                <div
+                                    style="background-color: var(--first-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                    2
+                                </div>
+                                <h3 style="font-size: var(--h3-font-size); margin: 0;">Set Up Your Project</h3>
+                            </div>
+                            <p style="margin: 0; color: var(--text-color);">
+                                Create your first project by entering project details, timeline, and budget. Add team
+                                members and assign roles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div style="display: flex; align-items: center; margin-bottom: 3rem; gap: 2rem; flex-wrap: wrap;">
+                        <div
+                            style="flex: 1; min-width: 280px; background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);">
+                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                                <div
+                                    style="background-color: var(--first-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                    3
+                                </div>
+                                <h3 style="font-size: var(--h3-font-size); margin: 0;">Manage Resources</h3>
+                            </div>
+                            <p style="margin: 0; color: var(--text-color);">
+                                Input your inventory, set up tracking for materials and equipment, and configure
+                                automated alerts for low stock.
+                            </p>
+                        </div>
+                        <div style="flex: 1; min-width: 280px; display: flex; justify-content: center;">
+                            <div
+                                style="background-color: var(--first-color-lighten); padding: 2rem; border-radius: 1rem; width: 120px; height: 120px; display: flex; align-items: center; justify-content: center;">
+                                <i class='bx bx-package' style="font-size: 3rem; color: var(--first-color);"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap-reverse;">
+                        <div style="flex: 1; min-width: 280px; display: flex; justify-content: center;">
+                            <div
+                                style="background-color: var(--first-color-lighten); padding: 2rem; border-radius: 1rem; width: 120px; height: 120px; display: flex; align-items: center; justify-content: center;">
+                                <i class='bx bx-chart' style="font-size: 3rem; color: var(--first-color);"></i>
+                            </div>
+                        </div>
+                        <div
+                            style="flex: 1; min-width: 280px; background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1);">
+                            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                                <div
+                                    style="background-color: var(--first-color); color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                                    4
+                                </div>
+                                <h3 style="font-size: var(--h3-font-size); margin: 0;">Track Progress</h3>
+                            </div>
+                            <p style="margin: 0; color: var(--text-color);">
+                                Monitor tasks, track deadlines, and view real-time updates on your project's progress
+                                through our intuitive dashboard.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Features ====================-->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="section__data" style="text-align: center; margin-bottom: 4rem;">
+                    <span class="section__subtitle">Features</span>
+                    <h2 class="section__title">
+                        Powerful Tools for <span>Better Management</span>
+                    </h2>
+                    <p class="contact__description" style="max-width: 600px; margin: 1.5rem auto 0;">
+                        Streamline your workflow with our comprehensive suite of project management tools designed to
+                        keep your projects on track and under budget.
+                    </p>
+                </div>
+
+                <div class="value__container">
+                    <div
+                        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem;">
+                        <!-- Budget Tracking -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-money-withdraw' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Budget Tracking
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Keep track of project expenses in real-time with automated calculations, budget limits,
+                                and detailed expense reports.
+                            </p>
+                        </div>
+
+                        <!-- Deadline Tracking -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-time-five' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Deadline Tracking
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Stay on schedule with automated deadline reminders and a centralized calendar for
+                                tracking milestones.
+                            </p>
+                        </div>
+
+                        <!-- Task Management -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-task' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Task Management
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Organize tasks, assign team members, and track progress through an intuitive visual
+                                dashboard.
+                            </p>
+                        </div>
+
+                        <!-- Inventory Management -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-package' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Inventory Management
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Track materials and equipment usage with real-time updates and automated low-stock
+                                alerts.
+                            </p>
+                        </div>
+
+                        <!-- Site Updates -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-refresh' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Site Updates
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Share real-time updates, photos, and videos from the field to maintain transparency
+                                across the team.
+                            </p>
+                        </div>
+
+                        <!-- Quick Estimation -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-calculator' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Quick Estimation
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Generate accurate cost estimates instantly with detailed breakdowns for materials and
+                                labor.
+                            </p>
+                        </div>
+
+                        <!-- Calendar -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-calendar' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Calendar
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Visualize project schedules with an integrated calendar system for tasks, meetings, and
+                                milestones with easy drag-and-drop functionality.
+                            </p>
+                        </div>
+
+                        <!-- Attendance Management -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-user-check' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Attendance Management
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Track workforce attendance, monitor work hours, and generate detailed reports with
+                                automated check-in/out system.
+                            </p>
+                        </div>
+
+                        <!-- Files Menu -->
+                        <div
+                            style="background-color: var(--container-color); padding: 2rem; border-radius: 1rem; box-shadow: 0 8px 24px hsla(228, 66%, 45%, .1); transition: .4s;">
+                            <div
+                                style="background-color: var(--first-color-lighten); width: 65px; height: 65px; border-radius: 1rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1.5rem;">
+                                <i class='bx bx-folder' style="font-size: 2rem; color: var(--first-color);"></i>
+                            </div>
+                            <h3 class="value__title" style="font-size: var(--h3-font-size); margin-bottom: 1rem;">
+                                Files Menu
+                            </h3>
+                            <p class="value__description" style="margin: 0;">
+                                Centralized storage for project documents with organized file management and controlled
+                                access permissions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+
+                    <div class="contact__img blured">
+                        <img src="./assets/imgs/contact.png" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contact Us</span>
+                        <h2 class="section__title">
+                            Easy to Contact us<span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Looking for help with our products or services? Reach out to us anytime!
+                        </p>
+                    </div>
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-phone-call'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Call
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        7600425774
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a class="button contact__card-button" href="tel:7600425774">
+                                Call Now
+                            </a>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxl-whatsapp'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Chat
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        Dev Barot
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a class="button contact__card-button" href="https://api.whatsapp.com/send?phone=7600425774"
+                                target="_blank">
+                                Chat
+                            </a>
+                        </div>
+
+                        <div class="contact__card-box" style="width: 250px;">
+                            <div class="contact__card-info">
+                                <i class='bx bxl-gmail'></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Mail
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        tectra08.in@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+
+                            <a class="button contact__card-button" href="mailto:tectra08.in@gmail.com">
+                                Mail Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    Tectra
+                </a>
+                <p class="footer__description">
+                    Our vision is to provide affordable,<br>
+                    high-quality products.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer__title">
+                        Navigation
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">How it's work</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">
+                        Contact
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="mailto:tectra08.in@gmail.com" class="footer__link">tectra08.in@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:7600425774" class="footer__link">+91 7600425774</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer__title">
+                        Follow us
+                    </h3>
+                    <ul class="footer__social">
+                        <a href="https://www.instagram.com/tectra_in/" class="footer__social-link">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="mailto:tectra08.in@gmail.com" class="footer__social-link">
+                            <i class='bx bxl-gmail'></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Tectra. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--==================== POPUP ====================-->
+    <div class="popup-overlay" id="signupPopup">
+        <div class="popup-container">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2 style="color: var(--title-color); margin-bottom: 1.5rem;">Create Account</h2>
+
+            <form id="signupForm" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Enter your full name" required>
+                    <div class="error-message" id="fullNameError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                    <div class="error-message" id="emailError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                    <div class="error-message" id="phoneError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company Name (Optional)</label>
+                    <input type="text" id="company" placeholder="Enter your company name (if applicable)">
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Role/Profession</label>
+                    <select id="role" required onchange="handleRoleChange()">
+                        <option value="">Select your role</option>
+                        <option value="architect">Architect</option>
+                        <option value="designer">Interior Designer</option>
+                        <option value="contractor">Contractor</option>
+                        <option value="engineer">Civil Engineer</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <input type="text" id="otherRoleInput" placeholder="Please specify your role">
+                    <div class="error-message" id="roleError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" id="location" placeholder="Enter your city and state" required>
+                    <div class="error-message" id="locationError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Create a password" required>
+                    <div class="error-message" id="passwordError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+                    <div class="error-message" id="confirmPasswordError"></div>
+                </div>
+
+                <button type="submit" id="submitButton" class="submit-btn">Create My Account</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevron-up'></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Tectra",
+      "applicationCategory": "Project Management Platform",
+      "creator": {
+        "@type": "Person",
+        "name": "Mohit Paddhariya",
+        "jobTitle": "Software Developer"
+      },
+      "description": "A comprehensive project management platform offering budget tracking, team coordination, and resource management tools",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Budget Tracking",
+        "Task Management",
+        "Inventory Management",
+        "Deadline Tracking",
+        "Calendar Integration",
+        "Site Updates",
+        "Quick Estimation"
+      ]
+    }
+    </script>
+    <!-- Person Schema for Mohit Paddhariya -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mohit Paddhariya",
+      "jobTitle": "Software Developer",
+      "description": "Expert software developer specializing in project management solutions and web development. Creator of Tectra platform.",
+      "sameAs": [
+        "https://linkedin.com/in/mohit-paddhariya",
+        "https://github.com/dev-mohit06"
+      ]
+    }
+    </script>
+</body>
+
+</html>
